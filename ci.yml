@@ -5,6 +5,7 @@ on: [push]
 env:
   CR_REPO: commission_calculator
   TAG: latest
+  
 jobs:
   build:
     runs-on: ubuntu-latest
